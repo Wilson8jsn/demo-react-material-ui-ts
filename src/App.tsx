@@ -11,7 +11,7 @@ const theme = createTheme({
     MuiCssBaseline: {
       styleOverrides: {
         body: {
-          backgroundImage: `url('https://res.cloudinary.com/dcba9lt2s/image/upload/v1701026662/samples/balloons.jpg')`, 
+          backgroundImage: `url('')`, 
           backgroundSize: 'cover',
           height: '100vh', 
           margin: 0,
