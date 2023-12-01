@@ -1,0 +1,67 @@
+
+.movie-page {
+    padding: 20px;
+  }
+  
+  .movie-page-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .movie-list {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+  }
+  
+  .movie-card {
+    flex: 0 0 200px;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  
+    &.last-card {
+      margin-right: 0;
+    }
+  }
+  
+  .movie-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .play-button {
+    width: 100%;
+  }
+  
+  /* En src/components/MoviePage.css */
+/* ... tus estilos existentes ... */
+
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 999;
+  }
+  
+  .current-video {
+    width: 80%;
+    max-height: 80vh;
+    margin-bottom: 20px;
+  }
+  
+  .back-button {
+    width: 100%;
+  }
+  
