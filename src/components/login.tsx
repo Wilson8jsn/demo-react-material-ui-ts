@@ -1,4 +1,4 @@
-// En src/components/Login.tsx
+
 import React, { useState } from 'react';
 import { Container, Typography, TextField, Button, Grid, Avatar } from '@mui/material';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined'; // Corregido aquí

@@ -3,17 +3,17 @@ import React, { useState } from 'react';
 import Login from './components/login';
 import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
-import { ThemeProvider, createTheme } from '@mui/material/styles'; // Importa ThemeProvider y createTheme
+import { ThemeProvider, createTheme } from '@mui/material/styles'; 
 
 const theme = createTheme({
-  // Agrega el fondo al tema global
+  
   components: {
     MuiCssBaseline: {
       styleOverrides: {
         body: {
-          backgroundImage: `url('https://res.cloudinary.com/dcba9lt2s/image/upload/v1701026662/samples/balloons.jpg')`, // Reemplaza con el enlace de tu imagen
+          backgroundImage: `url('https://res.cloudinary.com/dcba9lt2s/image/upload/v1701026662/samples/balloons.jpg')`, 
           backgroundSize: 'cover',
-          height: '100vh', // Ajusta según sea necesario
+          height: '100vh', 
           margin: 0,
           display: 'flex',
           flexDirection: 'column',
